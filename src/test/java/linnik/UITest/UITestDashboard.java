@@ -9,25 +9,26 @@ import org.junit.jupiter.api.Test;
 public class UITestDashboard {
     @Test
     @Description("Adding a board")
-    public void test(){
+    public void test() {
         boolean actual = new HomePage()
                 .open()
                 .clickLogin()
                 .clickDashboard()
                 .clickAddNewDashBoard()
-                .addNameDashboard("New Dashboard")
+                .addNameDashboard("New Dashboard6")
                 .clickAddBoard()
                 .clickAddNewWidget()
                 .clickChoosePassingRateSummary()
                 .clickNextStepButton()
                 .clickAddFilterButton()
-                .setFilterField("filter1")
+                .setFilterField("filter4")
                 .setLaunchName("Time")
                 .clickMoreButton()
                 .clickOwnerButton()
                 .setOwnerName("Alex")
                 .clickSubmitButton()
                 .clickNextStepButtonWidget()
+                .clickNextStepButton()
                 .clickAddWidget()
                 .isElementPresent();
         Assertions.assertFalse(actual, "Элемент не найден на странице.");
