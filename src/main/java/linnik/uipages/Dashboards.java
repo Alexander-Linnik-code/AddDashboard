@@ -1,7 +1,7 @@
 package linnik.uipages;
 
 import io.qameta.allure.Step;
-import linnik.Singleton.Singleton;
+import linnik.singleton.Singleton;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;

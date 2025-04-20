@@ -1,4 +1,4 @@
-package linnik.Singleton;
+package linnik.singleton;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
